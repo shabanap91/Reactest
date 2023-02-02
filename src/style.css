@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+}
+ul{
+    background-color: rgb(121, 215, 185);
+    width: 100%;
+    height: 70px;
+}
+ul li{
+    display: inline-flex;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+}
+/* Dashboard */
+.container{
+    display: flex; 
+    justify-content: center;
+}
+
+/* btnnnnnn */
+button{
+    background-color: aquamarine;
+}
+
+.image1{
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.image2{
+    
+    height: 700px;
+    width: 1430px;
+}
+
+
+.dark-theme{
+    --btn1:red;
+}
+.light-theme{
+    --btn1:blue;
+}
+.btn1{
+    color: var(--button);
+}
